@@ -16,11 +16,11 @@ function tweetStatus(tweet) {
 
 function tweeted(err, data, response) {
   if(err) {
-    console.log('Ha ocurrido un error')
+    console.log('Failed to publish the reply')
     console.log(err)
     throw err
   }
-  console.log('El tweet ha sido publicado con exito')
+  console.log('Reply published successfully')
   console.log(data)
   console.log(response)
 }
