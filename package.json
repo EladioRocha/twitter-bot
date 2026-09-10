@@ -1,9 +1,10 @@
 {
   "name": "api-twitter",
   "version": "1.0.0",
-  "description": "",
+  "description": "Node.js learning project that listens for Twitter mentions and posts replies through the Twit streaming API.",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
